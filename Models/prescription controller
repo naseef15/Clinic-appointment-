@@ -1,0 +1,43 @@
+package com.clinic.controller;
+
+import com.clinic.model.Prescription;
+import com.clinic.service.PrescriptionService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.Optional;
+
+@RestController
+@RequestMapping("/prescriptions")
+public class PrescriptionController {
+
+    @Autowired
+    private PrescriptionService prescriptionService;
+
+    @PostMapping("/add")
+    public Prescription addPrescription(@RequestBody Prescription prescription) {
+        return prescriptionService.savePrescription(prescription);
+    }
+
+    @GetMapping("/{id}")
+    public Optional<Prescription> getPrescription(@PathVariable Long id) {
+        return prescriptionService.getPrescriptionById(id);
+    }
+
+    @GetMapping("/all")
+    public List<Prescription> getAllPrescriptions() {
+        return prescriptionService.getAllPrescriptions();
+    }
+
+    @DeleteMapping("/delete/{id}")
+    public String deletePrescription(@PathVariable Long id) {
+        prescriptionService.deletePrescription(id);
+        return "Prescription deleted successfully";
+    }
+
+    @GetMapping("/appointment/{appointmentId}")
+    public Prescription getByAppointment(@PathVariable Long appointmentId) {
+        return prescriptionService.getPrescriptionByAppointmentId(appointmentId);
+    }
+}
