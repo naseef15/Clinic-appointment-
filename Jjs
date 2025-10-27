@@ -1,0 +1,16 @@
+September 9, 2025
+User Login Module
+Instructions: Below are the test scenarios for the User Login module.
+1. Test Scenario 1: Successful Login as a Patient
+Input: Username: hxf1z, Password: password123
+Expected Output: ”Login successful! Welcome, hxf1z!”, and the Patient Menu is
+displayed.
+2. Test Scenario 2: Successful Login as a Doctor
+Input: Username: dr.smith, Password: docpass
+Expected Output: ”Login successful! Welcome, dr.smith!”, and the Doctor Menu is
+displayed.
+3. Test Scenario 3: Successful Login as an Admin
+Input: Username: admin, Password: adminpass
+Expected Output: ”Login successful! Welcome, admin!”, and the Admin Menu is
+displayed.
+4. 
