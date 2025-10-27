@@ -1,0 +1,22 @@
+
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "HospitalManagementApp",
+            "request": "launch",
+            "mainClass": "com.hms.app.HospitalManagementApp",
+            "projectName": "HospitalManagementSystem_53e81ea0",
+            "vmArgs": "--enable-native-access=ALL-UNNAMED"
+        },
+        {
+            "type": "java",
+            "name": "DatabaseManager",
+            "request": "launch",
+            "mainClass": "com.hms.database.DatabaseManager",
+            "projectName": "HospitalManagementSystem_53e81ea0",
+            "vmArgs": "--enable-native-access=ALL-UNNAMED"
+        }
+    ]
+}
