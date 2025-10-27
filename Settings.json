@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.referencedLibraries": [
+        "lib\\sqlite-jdbc-3.50.3.0.jar",
+        "c:\\Users\\ignth\\OneDrive\\Desktop\\HospitalManagementSystem\\lib\\sqlite-jdbc-3.50.3.0.jar"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}
