@@ -76,12 +76,7 @@ The system uses **SQLite** for a lightweight and embedded database. The schema i
 Refer the user manual on documents folder for clear instructions
 ---
 
-## 🧑‍💻 Team Members
-
-* **MOHAMMED UAHEEL** - @mohduheail (https://github.com/mohduheail)
-* **HAFIZ ABDULLA ABDUL RASHEED** - @HXF1Z (https://github.com/HXF1Z)
-* **MUHAMMAD FALAH** - @Falah-10 (https://github.com/Falah-10)
-* **MOHAMED SHAZWAN** - @shazwaan (https://github.com/shazwaan)
+## 
 
 ---
 
